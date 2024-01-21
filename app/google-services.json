@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "527650294034",
+    "project_id": "venjns-4f4af",
+    "storage_bucket": "venjns-4f4af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527650294034:android:d4729267a43b6f5f8c8bcb",
+        "android_client_info": {
+          "package_name": "com.gamstrain.venjns"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIwf-HDdz1zSKPIbSmYSqYVHBLv1Ip_P0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
