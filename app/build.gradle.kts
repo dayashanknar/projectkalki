@@ -55,6 +55,12 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
+    //webkit
+    implementation("androidx.webkit:webkit:1.9.0")
+
+    //splash screen
+    implementation("androidx.core:core-splashscreen:1.0.1")
+
     // country selector
     implementation("com.hbb20:ccp:2.7.3")
 
@@ -112,8 +118,8 @@ dependencies {
     ksp("androidx.room:room-compiler:2.6.1")
 
     // hilt
-    implementation("com.google.dagger:hilt-android:2.50")
-    kapt("com.google.dagger:hilt-android-compiler:2.50")
+    implementation("com.google.dagger:hilt-android:2.48")
+    kapt("com.google.dagger:hilt-android-compiler:2.48")
 
     //firebase
     implementation(platform("com.google.firebase:firebase-bom:32.6.0"))

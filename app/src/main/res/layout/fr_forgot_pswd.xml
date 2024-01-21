@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/frgtPswdLayout"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:layout_gravity="center"
+    android:maxWidth="460dp"
+    tools:context=".ui.main.fragments.FrForgotPswd">
+
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/backBtFrgt"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_15"
+        android:contentDescription="@string/back"
+        android:foreground="@drawable/ripple_10"
+        android:src="@drawable/ic_chev_down"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/enterLinkedEmail"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        app:layout_constraintWidth_max="380dp"
+        android:lineSpacingExtra="8dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:text="@string/fgp_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backBtFrgt" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/fgPEmailC"
+        android:layout_width="match_parent"
+        app:layout_constraintWidth_max="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterLinkedEmail"
+        app:hintEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fgpEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="emailAddress"
+            android:hint="@string/enter_email"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            tools:ignore="TextContrastCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/sendRLC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fgPEmailC">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sendRLB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/black"
+            app:icon="@drawable/ic_email"
+            android:paddingHorizontal="10dp"
+            app:cornerRadius="5dp"
+            app:rippleColor="@color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,49 @@
 <resources>
     <string name="app_name">Venjns</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="skip">skip</string>
+    <string name="username">Username</string>
+    <string name="ent_pswd">Password</string>
+    <string name="new_user">New User?</string>
+    <string name="sign_up">Create Account</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_pswd">forgot password?</string>
+    <string name="or">OR</string>
+    <string name="google">continue with Google</string>
+    <string name="enter_email">Enter your email ID</string>
+    <string name="reset">Send reset link</string>
+    <string name="fgp_line">Enter the email address associated with your account so we can send you the password reset link</string>
+    <string name="quote_images">quote images</string>
+    <string name="next">next button</string>
+    <string name="pswd_show">show the password</string>
+    <string name="create_ac_h">Create your account</string>
+    <string name="already_user">Already a user?</string>
+    <string name="ask_email">Enter your valid email</string>
+    <string name="verify">Verify email</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="otp_pera">We have sent you an OTP on your email address</string>
+    <string name="send_otp">send OTP</string>
+    <string name="not_get_otp">"Request a new OTP in:"</string>
+    <string name="ent_con_pswd">Confirm password</string>
+    <string name="continue_t">Continue</string>
+    <string name="entPD">Primary details</string>
+    <string name="mob_num">Mobile Number</string>
+    <string name="country">Country</string>
+    <string name="gender">Divine gender</string>
+    <string name="dob">Date of birth</string>
+    <string name="back">Back</string>
+    <string name="next_t">Next</string>
+    <string name="be_real">Please share your primary details for security and identification purposes.</string>
+    <string name="onlyTwoGend">There are only two genders on this planet, so please select one</string>
+    <string name="choose_username">Choose Username</string>
+    <string name="choose_username_p">Choose a unique username to personalize your profile and make it easy for others to find you. you can also change it later.</string>
+    <string name="agTermsH">Agree to Venjns\'s policies, terms and conds.</string>
+    <string name="agTermsP">tems pera</string>
+    <string name="agCA"><![CDATA[Agree & create account]]></string>
+    <string name="home">Home</string>
+    <string name="if_you_try_to_share_your_body_here_you_may_face_account_deletion_no_matter_how_pink_your_body_is">If you try to share your body here you may face account deletion, no matter how pink your body is</string>
+    <string name="we_will_bring_change_to_this_universe">We will bring change to this universe.</string>
 </resources>

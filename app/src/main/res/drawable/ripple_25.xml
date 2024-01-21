@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!-- res/drawable/ripple_effect.xml -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/rippleC">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/link" />
+            <corners android:radius="25dp" />
+        </shape>
+    </item>
+</ripple>
