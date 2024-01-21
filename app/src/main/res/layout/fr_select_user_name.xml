@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/chUnmLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".ui.main.fragments.FrSelectUserName">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/lCH2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_max="400dp">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterButton
+            android:id="@+id/backToPrimaryDt"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_15"
+            android:contentDescription="@string/next"
+            android:foreground="@drawable/ripple_10"
+            android:src="@drawable/ic_chev_down"
+            tools:ignore="TouchTargetSizeCheck,RedundantDescriptionCheck" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2/3"
+            android:textAlignment="viewEnd"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <TextView
+        android:id="@+id/chooseUnm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/choose_username"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lCH2" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/chooseUnmP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="8dp"
+        android:maxWidth="480dp"
+        android:text="@string/choose_username_p"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseUnm" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/chUserNmC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        app:endIconMode="custom"
+        app:endIconTint="@color/valid"
+        app:hintEnabled="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseUnmP"
+        app:layout_constraintWidth_max="380dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/chUserNm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="name"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:padding="15dp"
+            tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/chUnmNxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:paddingHorizontal="10dp"
+        android:text="@string/next_t"
+        android:textColor="@android:color/white"
+        app:cornerRadius="5dp"
+        app:icon="@drawable/ic_arrow_forward"
+        app:iconGravity="end"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chUserNmC"
+        app:rippleColor="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

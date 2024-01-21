@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_gravity="center_horizontal"
+    tools:context=".ui.main.fragments.FrTermsSignUp">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/lCH3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_max="400dp">
+
+        <androidx.constraintlayout.utils.widget.ImageFilterButton
+            android:id="@+id/backToChUnm"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_15"
+            android:contentDescription="@string/next"
+            android:foreground="@drawable/ripple_10"
+            android:src="@drawable/ic_chev_down"
+            tools:ignore="TouchTargetSizeCheck,RedundantDescriptionCheck" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3/3"
+            android:textAlignment="viewEnd"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <TextView
+        android:id="@+id/agTermsH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/agTermsH"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lCH3" />
+
+    <TextView
+        android:id="@+id/agTermsP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColorLink="@color/link"
+        android:lineSpacingExtra="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agTermsH" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/chUnmNxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/black"
+        android:paddingHorizontal="10dp"
+        android:text="@string/agCA"
+        android:textColor="@android:color/white"
+        app:cornerRadius="5dp"
+        app:iconGravity="end"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agTermsP"
+        app:rippleColor="@color/white" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

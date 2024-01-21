@@ -46,4 +46,7 @@
     <string name="home">Home</string>
     <string name="if_you_try_to_share_your_body_here_you_may_face_account_deletion_no_matter_how_pink_your_body_is">If you try to share your body here you may face account deletion, no matter how pink your body is</string>
     <string name="we_will_bring_change_to_this_universe">We will bring change to this universe.</string>
+    <string name="full_name">Full Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="current_mental_state">Current mental state</string>
 </resources>
